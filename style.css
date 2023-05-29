@@ -1,0 +1,122 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+scroll-behavior: smooth;
+}
+
+.awalan {
+        height: 100vh;
+        width: 100%;
+        background-image: url("BackgroundVT.jpg");
+        background-position: center;
+        background-size: cover;
+        
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    display: justify-between;
+}
+nav.sticky {
+    padding: 15px 20px;
+    background: #000;
+} 
+.nav-content {
+    display: flex;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+nav.sticky .nav-content .logo a {
+    color: #0e2431;
+}
+
+.nav-content ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-content ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav-content ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 4px;
+    transition: all 0.5s ease;
+}
+
+.nav-content ul li a:hover {
+    color: #4070f4;
+}
+
+nav.sticky .nav-content ul li a:hover {
+    color: #0e2431;
+}
+
+.text {
+    padding: 40px 80px;
+    text-align: justify;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.awalan p{
+    margin-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+
+
+.text h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #4070f4;
+    margin-bottom: 8px;
+}
+body {
+    font-family: "Inter", sans-serif;
+  }
+   .logo {
+    display: flex;
+    color: white;
+    
+
+   }
+
+ .textlogo {
+    margin-top: 14px;
+    margin-left: 10px;
+ }
+
+ .button {
+    background-color: #096BFF;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 170px;
+    height: 41px;
+    color: white;
+    
+ }
